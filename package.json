@@ -1,0 +1,22 @@
+{
+  "name": "h-hw24",
+  "version": "1.0.0",
+  "description": "24 homework for hillel",
+  "main": "./server/server.mjs",
+  "scripts": {
+    "start": "nodemon ./server/server.mjs",
+    "serve": "npm run start && open http://localhost:7777/"
+  },
+  "author": "Elineum",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^6.10.2",
+    "fastify": "^4.21.0",
+    "path": "^0.12.7",
+    "url": "^0.11.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
